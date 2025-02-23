@@ -125,7 +125,7 @@
         <version>3.3.2</version>
         <configuration>
           <to>
-            <image>sunithm/${artifactId}:s6</image>
+            <image>sunithm/${artifactId}:s8</image>
           </to>
         </configuration>
       </plugin>
