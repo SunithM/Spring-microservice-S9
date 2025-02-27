@@ -1,6 +1,6 @@
 services:
   configserver:
-    image: "sunithm/configserver:s8"
+    image: "sunithm/configserver:s9"
     container_name: configserver-ms
     ports:
       - "8071:8071"
@@ -15,7 +15,7 @@ services:
       service: microservice-base-config
 
   eurekaserver:
-    image: "sunithm/eurekaserver:s8"
+    image: "sunithm/eurekaserver:s9"
     container_name: eurekaserver-ms
     ports:
       - "8070:8070"
